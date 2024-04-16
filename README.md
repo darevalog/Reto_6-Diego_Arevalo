@@ -134,7 +134,7 @@ while True:
 
 
 ### 3. `LISTA DE NÚMEROS PRIMOS`
-Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. La función debe recibir una lista de enteros y retornar solo aquellos que sean primos.
+Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. La función debe recibir una lista de enteros y retornar solo aquellos que sean primos. Se le ha agregado el manejo de excepciones.
 
 ```python
 def es_primo(n):
@@ -186,7 +186,7 @@ while True:
 
 
 ### 4. `MÁXIMA SUMA DE DOS NÚMERO CONSECUTIVOS DENTRO UNA LISTA`
-Escribir una función que reciba una lista de números enteros y retorne la mayor suma entre dos elementos consecutivos.
+Escribir una función que reciba una lista de números enteros y retorne la mayor suma entre dos elementos consecutivos. Se le ha agregado el manejo de excepciones.
 
 ```python
 def mayor_suma_consecutivos(lista):
@@ -235,7 +235,7 @@ while True:
 
 
 ### 5. `ELEMENTOS CON LOS MISMOS CARÁCTERES`
-Escribir una función que reciba una lista de string y retorne unicamente aquellos elementos que tengan los mismos caracteres. e.g. entrada: `["amor", "roma", "perro"]`, salida `["amor", "roma"]`
+Escribir una función que reciba una lista de string y retorne unicamente aquellos elementos que tengan los mismos caracteres. e.g. entrada: `["amor", "roma", "perro"]`, salida `["amor", "roma"]`. Se le ha agregado el manejo de excepciones.
 
 ```python
 def elementos_con_mismos_caracteres(lista):
